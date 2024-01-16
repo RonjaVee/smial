@@ -1,7 +1,7 @@
-#Eka juttu
+# Eka juttu
 
 MarkDown-kokeilu.
 
-##Kooditesti
+## Kooditesti
 
     print("Hello world")
