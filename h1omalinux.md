@@ -106,5 +106,6 @@ Kokeilin vielä avata selaimen ja avata satunnaisen sivuston, ja kaikki toimi ku
 Tehty 18.1.2024.
 
 Tätä dokumenttia saa kopioida ja muokata [GNU General Public License](http://www.gnu.org/licenses/gpl.html) (versio 2 tai uudempi) mukaisesti. 
+
 Pohjana Tero Karvinen 2024: Linux Palvelimet 2024 alkukevät, [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/)
 
