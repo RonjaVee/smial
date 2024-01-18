@@ -12,7 +12,7 @@
 
 -Plagiointi, sepittäminen sekä tekijänoikeuksien rikkominen on kiellettyä
 
-[GNU GENERAL PUBLIC LICENSE. Versio 3, 29 Kesäkuu 2007](https://www.gnu.org/licenses/gpl-3.0.html)
+[GNU GENERAL PUBLIC LICENSE. Versio 3, 29.6.2007](https://www.gnu.org/licenses/gpl-3.0.html)
 
 -Ideana on säilyttää vapaus
 
