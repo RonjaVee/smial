@@ -32,8 +32,11 @@ Tavoitteenani oli asentaa virtuaalikoneeseen Linux-ytimeen perustuva Debian-käy
 ## Laitteen tiedot
 
 AMD Ryzen 5 3600 6-Core Processor 3.59 GHz
+
 RAM: 16,0 Gt
+
 64-bittinen käyttöjärjestelmä, x64-suoritin
+
 Windows 10 Pro, versio 22H2
 
 Asensin Oracle Vm Virtual Box -ohjelman sekä Viimeisimmän Debian Live -levykuvan (debian-live-12.1.0-amd64-xfce.iso) PC:lle.
