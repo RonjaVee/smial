@@ -41,7 +41,7 @@ Windows 10 Pro, versio 22H2
 
 ### Aloitus
 
-Asensin Oracle Vm Virtual Box -ohjelman sekä Viimeisimmän Debian Live -levykuvan (debian-live-12.1.0-amd64-xfce.iso) PC:lle.
+Asensin Oracle Vm VirtualBox -ohjelman sekä Viimeisimmän Debian Live -levykuvan (debian-live-12.1.0-amd64-xfce.iso) PC:lle.
 Pystytin virtuaalikoneen ohjeen [Tero Karvinen: Install Debian on Virtualbox - Updated 2023](https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=install%20debia#the-solution---virtualbox-guest-additions) mukaan.
 Sain seuraavan virheilmoituksen bootatessa: 
 
