@@ -107,5 +107,12 @@ Tehty 18.1.2024.
 
 Tätä dokumenttia saa kopioida ja muokata [GNU General Public License](http://www.gnu.org/licenses/gpl.html) (versio 2 tai uudempi) mukaisesti. 
 
-Pohjana Tero Karvinen 2024: Linux Palvelimet 2024 alkukevät, [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/)
+Lähteet:
 
+Kurssi: Tero Karvinen 2024: Linux Palvelimet 2024 alkukevät, [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/)
+
+Tehtävänanto: Tero Karvinen 2024: h1 Oma Linux [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h1-oma-linux](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h1-oma-linux)
+
+Käytetty manuaali: Tero Karvinen 2024: Install Debian on Virtualbox - Updated 2023 [https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=install%20debia#the-solution---virtualbox-guest-additions](https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=install%20debia#the-solution---virtualbox-guest-additions)
+
+OpenAI: ChatGPT, versio 3.5. 18.1.2024
