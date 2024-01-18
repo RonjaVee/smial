@@ -1,6 +1,6 @@
 ## Tiivistelmät Raportinkirjoitusohjeesta sekä Free Software Definitionista
 
-[Raportin kirjoittaminen](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+[Tero Karvinen: Raportin kirjoittaminen. 2006](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
 
 -Raportin ohjeiden on oltava toistettavia toisen henkilön toimesta samassa ympäristössä
 
@@ -12,7 +12,7 @@
 
 -Plagiointi, sepittäminen sekä tekijänoikeuksien rikkominen on kiellettyä
 
-[FSF](https://www.gnu.org/licenses/gpl-3.0.html)
+[GNU GENERAL PUBLIC LICENSE. Versio 3, 29 Kesäkuu 2007](https://www.gnu.org/licenses/gpl-3.0.html)
 
 -Ideana on säilyttää vapaus
 
