@@ -1,4 +1,4 @@
-## Tiivistelmät Raportinkirjoitusohjeesta sekä Free Software Definitionista
+# Tiivistelmät Raportinkirjoitusohjeesta sekä Free Software Definitionista
 
 [Raportin kirjoittaminen](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
 
@@ -25,11 +25,11 @@
 -Muokatuilla versioilla on oltava sama GPL-lisenssi
 
 
-## Linuxin asentaminen virtuaalikoneeseen
+# Linuxin asentaminen virtuaalikoneeseen
 
 Tavoitteenani oli asentaa virtuaalikoneeseen Linux-ytimeen perustuva Debian-käyttöjärjestelmä Linux-palvelimet -kurssin tulevia harjoitustehtäviä varten.
 
-# Laitteen tiedot
+## Laitteen tiedot
 
 AMD Ryzen 5 3600 6-Core Processor 3.59 GHz
 RAM: 16,0 Gt
@@ -42,7 +42,7 @@ Sain seuraavan virheilmoituksen bootatessa:
 
 (kuva)
 
-# Ongelmanratkaisua
+## Ongelmanratkaisua
 
 Kokeilin ensimmäisenä asentaa VirtualBoxin toiselle asemalle, mutta tästä ei ollut apua, joten asensin sen uudelleen C: -asemalle. 
 
@@ -78,7 +78,7 @@ aloitusnäyttö -> advanced mode -> advanced-kohta -> valitaan svm mode ja siit�
 
 Käynnistin koneen uudestaan, ja kokeilin käynnistää virtuaalikonetta Virtual Boxin kautta (en asentanut Virtual Boxia uudelleen). Tällä kertaa kone käynnistyi, joten siirryin asentamaan Debiania.
 
-# Debianin asennus
+## Debianin asennus
 
 Valitsin kieleksi ja näppäimistön kieleksi suomen ja sijainniksi Suomi. 
 Määritin koneen nimen (satunnainen nimi, jota ei voi liittää laitteeseen tai sen ominaisuuksiin) ja salasanan (vahva) sekä pääkäyttäjän nimen (etunimi+sukunimi) ja salasanan (myös vahva).
