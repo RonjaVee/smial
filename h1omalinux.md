@@ -1,4 +1,4 @@
-## Tiivistelmät Raportinkirjoitusohjeesta sekä Free Software Definitionista
+## Tiivistelmät raportin kirjoitusohjeesta sekä Free Software Definitionista
 
 [Tero Karvinen: Raportin kirjoittaminen. 2006](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
 
