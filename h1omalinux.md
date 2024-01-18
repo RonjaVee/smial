@@ -76,7 +76,7 @@ After performing these steps, try running VirtualBox again. If the issue persist
 
 Tarkastin onko virtualization enabled (tehtävienhallinta -> suorituskyky -> suoritin -> virtualisointi: tila oli disabled).
 
-Avasin BIOS:in vaihtaakseni virtualization->enabled ja käytin apuna videota: [How do I enable virtualization in BIOS AMD Ryzen: tekijä Made 4 Geek, julkaisupäivä 23.5.2021](https://www.youtube.com/watch?v=FHW3-m1sO1s)
+Avasin BIOS:in vaihtaakseni virtualization->enabled ja käytin apuna Youtube-videota: [How do I enable virtualization in BIOS AMD Ryzen: tekijä Made 4 Geek, julkaisupäivä 23.5.2021](https://www.youtube.com/watch?v=FHW3-m1sO1s)
 
 Bios tietenkin näytti erilaiselta omalla laitteella, mutta polku oli hyvin samankaltainen:
 aloitusnäyttö -> advanced mode -> advanced-kohta -> valitaan svm mode ja siitä disabled vaihdetaan enabled -> takaisin aloitussivulle -> save and exit.
