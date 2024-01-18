@@ -12,7 +12,7 @@
 
 -Plagiointi, sepittäminen sekä tekijänoikeuksien rikkominen on kiellettyä
 
-[GNU GENERAL PUBLIC LICENSE. Versio 3, 29.6.2007](https://www.gnu.org/licenses/gpl-3.0.html)
+[What is Free Software?] (https://www.gnu.org/philosophy/free-sw.html)
 
 -Ideana on säilyttää vapaus
 
@@ -109,10 +109,16 @@ Tätä dokumenttia saa kopioida ja muokata [GNU General Public License](http://w
 
 Lähteet:
 
-Kurssi: Tero Karvinen 2024: Linux Palvelimet 2024 alkukevät, [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/)
+Tero Karvinen, 2024: Raportin kirjoittaminen. 2006. [https://terokarvinen.com/2006/raportin-kirjoittaminen-4/](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
 
-Tehtävänanto: Tero Karvinen 2024: h1 Oma Linux [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h1-oma-linux](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h1-oma-linux)
+GNU, 2024: "Free Software - GNU Project - Free Software Foundation.", [https://www.gnu.org/philosophy/free-sw.html](https://www.gnu.org/philosophy/free-sw.html)
 
-Käytetty manuaali: Tero Karvinen 2024: Install Debian on Virtualbox - Updated 2023 [https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=install%20debia#the-solution---virtualbox-guest-additions](https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=install%20debia#the-solution---virtualbox-guest-additions)
+Kurssi: Tero Karvinen, 2024: Linux Palvelimet 2024 alkukevät, [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/)
+
+Tehtävänanto: Tero Karvinen, 2024: h1 Oma Linux, [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h1-oma-linux](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h1-oma-linux)
+
+Käytetty manuaali: Tero Karvinen, 2024: Install Debian on Virtualbox - Updated 2023 [https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=install%20debia#the-solution---virtualbox-guest-additions](https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=install%20debia#the-solution---virtualbox-guest-additions)
 
 OpenAI: ChatGPT, versio 3.5. 18.1.2024
+
+Made 4 Geek: How do I enable virtualization in BIOS AMD Ryzen. Julkaisupäivä Youtubessa 23.5.2021, [https://www.youtube.com/watch?v=FHW3-m1sO1s](https://www.youtube.com/watch?v=FHW3-m1sO1s)
