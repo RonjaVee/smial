@@ -45,7 +45,7 @@ Asensin Oracle Vm VirtualBox -ohjelman sekä Viimeisimmän Debian Live -levykuva
 Pystytin virtuaalikoneen ohjeen [Tero Karvinen: Install Debian on Virtualbox - Updated 2023](https://terokarvinen.com/2021/install-debian-on-virtualbox/?fromSearch=install%20debia#the-solution---virtualbox-guest-additions) mukaan.
 Sain seuraavan virheilmoituksen bootatessa: 
 
-(kuva)
+[Virheilmoitus](errorcode.png)
 
 ### Ongelmanratkaisua
 
@@ -91,7 +91,7 @@ Määritin koneen nimen (satunnainen nimi, jota ei voi liittää laitteeseen tai
 Levyn osiointitavaksi valitsin Ohjattu - käytä koko levyä.
 Asennettaviksi ohjelmiksi valitsin oletuksena olevat, eli Debian desktop environment + vakiot järjestelmätyökalut.
 
-(kuva)
+[Debianasennusvalintoja](asennuksetdebian.png)
 
 Levyn osiointimalliksi valitsin suositellun (vain yksi levyosio).
 Asensin GRUB-alkulatausohjelman, sillä asentamani järjestelmä on virtuaalikoneen ainoa käyttöjärjestelmä. Valitsin laitteeksi ainoan valikossa näkyvän vaihtoehdon.
@@ -99,7 +99,7 @@ Asensin GRUB-alkulatausohjelman, sillä asentamani järjestelmä on virtuaalikon
 Käyttöjärjestelmän asentamisessa meni n. 10 minuuttia, jonka jälkeen laite käynnistyi uudelleen. Nyt pääsin kirjautumaan sisään pääkäyttäjälle, ja käyttöjärjestelmä oli käyttövalmis. 
 Kokeilin vielä avata selaimen ja avata satunnaisen sivuston, ja kaikki toimi kuten pitää.
 
-(kuva)
+[Debianulkoasu](debian.png)
 
 -------------------
 
