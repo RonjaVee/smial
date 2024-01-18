@@ -1,18 +1,29 @@
 ## Tiivistelmät Raportinkirjoitusohjeesta sekä Free Software Definitionista
 
 [Raportin kirjoittaminen](https://terokarvinen.com/2006/raportin-kirjoittaminen-4/)
+
 -Raportin ohjeiden on oltava toistettavia toisen henkilön toimesta samassa ympäristössä
+
 -Raportista on nähtävä täsmällisesti mitä tehtiin, mitä tapahtui ja milloin tarkkoine vikailmoituksineen
+
 -Raportissa on käytettävä korrektia kieltä ja aikamuotoa ja sen rakenne tulee olla helposti seurattava
+
 -Raportissa tulee viitata käytettyihin lähteisiin
+
 -Plagiointi, sepittäminen sekä tekijänoikeuksien rikkominen on kiellettyä
 
 [FSF](https://www.gnu.org/licenses/gpl-3.0.html)
+
 -Ideana on säilyttää vapaus
+
 -Käyttäjällä on oikeus kopioida, käyttää, muokata ja kehittää ohjelmistoa
+
 -Käyttäjällä on oikeus jakaa alkuperäistä tai muokattua ohjelmistoa kolmansille osapuolille
+
 -Käyttäjän jakaessa ohjelmiston muokattua versiota on muokkaukset oltava julkisesti saatavilla
+
 -Muokatuilla versioilla on oltava sama GPL-lisenssi
+
 
 ## Linuxin asentaminen virtuaalikoneeseen
 
