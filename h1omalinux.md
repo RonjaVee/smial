@@ -81,29 +81,25 @@ Avasin BIOS:in vaihtaakseni virtualization->enabled ja käytin apuna Youtube-vid
 Bios tietenkin näytti erilaiselta omalla laitteella, mutta polku oli hyvin samankaltainen:
 aloitusnäyttö -> advanced mode -> advanced-kohta -> valitaan svm mode ja siitä disabled vaihdetaan enabled -> takaisin aloitussivulle -> save and exit.
 
-Käynnistin koneen uudestaan, ja kokeilin käynnistää virtuaalikonetta Virtual Boxin kautta (en asentanut Virtual Boxia uudelleen). Tällä kertaa kone käynnistyi, joten siirryin asentamaan Debiania.
+Käynnistin koneen uudestaan, ja kokeilin käynnistää virtuaalikonetta Virtual Boxin kautta (en asentanut Virtual Boxia uudelleen). Asetin Debian Live -levykuvan Tero Karvinen: Install Debian on Virtualbox - Updated 2023
+ohjeen mukaan.
+(kuva)
 
 ### Debianin asennus
 
-Valitsin kieleksi ja näppäimistön kieleksi suomen ja sijainniksi Suomi. 
-Määritin koneen nimen (satunnainen nimi, jota ei voi liittää laitteeseen tai sen ominaisuuksiin) ja salasanan (vahva) sekä pääkäyttäjän nimen (etunimi+sukunimi) ja salasanan (myös vahva).
+Aloitusaika 14:34
+Valitsin kieleksi Englannin ja näppäimistön kieleksi suomen ja sijainniksi Suomi. 
+Määritin koneen nimen (satunnainen nimi, jota ei voi liittää laitteeseen tai sen ominaisuuksiin) ja käyttäjän nimen ja salasanan.
 
-Levyn osiointitavaksi valitsin Ohjattu - käytä koko levyä.
-Asennettaviksi ohjelmiksi valitsin oletuksena olevat, eli Debian desktop environment + vakiot järjestelmätyökalut.
+(kuvat)
 
-![Debianasennusvalintoja](asennuksetdebian.png)
 
-Levyn osiointimalliksi valitsin suositellun (vain yksi levyosio).
-Asensin GRUB-alkulatausohjelman, sillä asentamani järjestelmä on virtuaalikoneen ainoa käyttöjärjestelmä. Valitsin laitteeksi ainoan valikossa näkyvän vaihtoehdon.
 
-Käyttöjärjestelmän asentamisessa meni n. 10 minuuttia, jonka jälkeen laite käynnistyi uudelleen. Nyt pääsin kirjautumaan sisään pääkäyttäjälle, ja käyttöjärjestelmä oli käyttövalmis. 
-Kokeilin vielä avata selaimen ja avata satunnaisen sivuston, ja kaikki toimi kuten pitää.
 
-![Debianulkoasu](debian.png)
 
 -------------------
 
-Tehty 18.1.2024.
+Tehty 18.1.2024. Korjaukset 19.1.
 
 Tätä dokumenttia saa kopioida ja muokata [GNU General Public License](http://www.gnu.org/licenses/gpl.html) (versio 2 tai uudempi) mukaisesti. 
 
