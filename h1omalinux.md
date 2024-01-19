@@ -108,6 +108,8 @@ Tein tallennustilalle valinnat samaan tapaan kuin luennolla.
 
 ![asennusloppu](loppu.png)
 
+Asennus onnistui.
+
 
 -------------------
 
