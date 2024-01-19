@@ -83,18 +83,30 @@ aloitusnäyttö -> advanced mode -> advanced-kohta -> valitaan svm mode ja siit�
 
 Käynnistin koneen uudestaan, ja kokeilin käynnistää virtuaalikonetta Virtual Boxin kautta (en asentanut Virtual Boxia uudelleen). Asetin Debian Live -levykuvan Tero Karvinen: Install Debian on Virtualbox - Updated 2023
 ohjeen mukaan.
-(kuva)
+
+![kuva1](kuva1.png)
+
+![kuva2](kuva2.png)
+
+![levynlaitto](alku.png)
 
 ### Debianin asennus
 
 Aloitusaika 14:34
+
+Koneen käynnistyttyä avautui alkunäyttö ja klikkasin install Debian.
+
+![alkunäyttö](alkun.png)
+
 Valitsin kieleksi Englannin ja näppäimistön kieleksi suomen ja sijainniksi Suomi. 
 Määritin koneen nimen (satunnainen nimi, jota ei voi liittää laitteeseen tai sen ominaisuuksiin) ja käyttäjän nimen ja salasanan.
+Tein tallennustilalle valinnat samaan tapaan kuin luennolla.
 
-(kuvat)
+![tallennustila](tallennust.png)
 
+![asennus](asennus.png)
 
-
+![asennusloppu](tallennuslop.png)
 
 
 -------------------
