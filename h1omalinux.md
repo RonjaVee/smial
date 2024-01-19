@@ -106,7 +106,7 @@ Tein tallennustilalle valinnat samaan tapaan kuin luennolla.
 
 ![asennus](asennus.png)
 
-![asennusloppu](tallennuslop.PNG)
+![asennusloppu](loppu.png)
 
 
 -------------------
