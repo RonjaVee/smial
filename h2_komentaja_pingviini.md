@@ -11,24 +11,24 @@ Tehtävän aloitus 19:43.
 
 Aloitin syöttämällä komennon sudo apt-get update.
 
-(kuva)
+!(kuva1)[h21.png]
 
 ### Micron asennus
 
 Micro minulla oli jo asennettuna ja myös ajan tasalla.
 
-(kuva)
+!(kuva2)[h22.png]
 
 ### Rauta
 
 Annoin komennon sudo lshw -short -sanitize, mutta minun täytyi sitä ennen asentaa lshw. Asensin sen komennolla sudo apt-get -y install lshw.
 
-(kuva)
+!(kuva3)[h23.png]
 
 Sitten annoin komennon sudo lshw -short -sanitize uudestaan, ja sain seuraavat tiedot:
 
-(kuva)
-(kuva)
+!(kuva4)[h24.png]
+!(kuva5)[h25.png]
 
 Tiedoista näki, että:
 -BIOS vie tilaa 128 KiB
@@ -45,27 +45,27 @@ Tiedoista näki, että:
 Tero Karvisen ohjeen mukaan samalla komennolla (apt-get) voi asentaa useampia ohjelmia yhdellä komennolla. Niinpä etsin seuraavat ohjelmat ja asensin ne samalla komennolla
 (ja kirjoitin kerran salasanani väärin):
 
-(kuva)
+!(kuva6)[h26.png]
 
 Lolcat: Tekee komentokehotteen tekstistä sateenkaaren värisen, ja sitä voi säädellä oman maun mukaan.
 
-(kuva)
-(kuva)
+!(kuva7)[h27.png]
+!(kuva8)[h28.png]
 
 En onnistunut hyödyntämään Thefuck-ohjelmaa, joten asensin vielä Cowsayn.
 
-(kuva)
+!(kuva9)[h29.png]
 
 Cowsay:
 
- (kuva)
+ !(kuva10)[h210.png]
  
 Pacman4console: Peli vaati suurempaa resoluutiota, enkä nyt kerennyt alkaa selvittää, kuinka resoluutiota voi säätää. 
 
 Asensin siis vielä uuden ohjelman, Angband-pelin:
 
-(kuva)
-(kuva)
+!(kuva11)[h211.png]
+!(kuva12)[h212.png]
 
 Ja eikun pelaamaan.
 
