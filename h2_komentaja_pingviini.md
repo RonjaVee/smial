@@ -109,7 +109,7 @@ komento ei onnistunut. Su tarkoittaa substitute useria, eli sijaiskäyttäjää;
 koska tiesin salasanan.
 
 ![kuva9](h229.png)
-![kuva10](h230.png)
+![kuva10](h230.PNG)
 
 Lähteet:
 
