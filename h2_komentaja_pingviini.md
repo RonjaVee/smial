@@ -70,6 +70,8 @@ Asensin siis vielä uuden ohjelman, Angband-pelin:
 
 Ja eikun pelaamaan.
 
+![kuva13(h213.png)
+
 ### FSH
 
 ### Grep-komento
