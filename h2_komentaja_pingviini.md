@@ -93,11 +93,11 @@ Avasin /var/log -hakemiston, ja kokeilin avata yhtä tiedostoa, mutta pääsy ol
 
 ### Grep-komento
 
-Kokeilin grep-komentoa Youtube-videon ohjeen avulla.
+Kokeilin grep-komentoa Youtube-videon ohjeen avulla. Grep-komennolla voidaan hakea tiettyä tekstiä tiedostoista taikka syötteestä.
 
 ![kuva6](h226.png)
 
-Sitten kokeilin pipeä kahdella tavalla, varmistaakseni, että ymmärrän sen toimintatavan. Lolcatia olinkin jo käyttänyt pipellä aikaisemmin.
+Sitten kokeilin pipeä kahdella tavalla, varmistaakseni, että ymmärrän sen toimintatavan. Lolcatia olinkin jo käyttänyt pipellä aikaisemmin. Pipe-symbolin | avulla voi ketjuttaa komentoja.
 
 ![kuva7](h227.png)
 ![kuva8](h228.png)
