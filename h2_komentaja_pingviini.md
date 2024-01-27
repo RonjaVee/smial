@@ -117,7 +117,7 @@ Ja eikun pelaamaan.
 
 ### FSH (d.)
 
-Siirryin Tero Karvisen [tehtävänannon](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h2-komentaja-pingviini) mukaan hakemistoissa root- (juurihakemisto) ja home- (kotihakemisto) directoryyn sekä kotihakemiston kautta käyttäjäkohtaiseen directoryyn, jonka kansiot katsoin. 
+Siirryin tehtävänannon mukaan hakemistoissa root- (juurihakemisto) ja home- (kotihakemisto) directoryyn sekä kotihakemiston kautta käyttäjäkohtaiseen directoryyn, jonka kansiot katsoin. 
 
 ![kuva1](h221.png)
 ![kuva2](h222.png)
