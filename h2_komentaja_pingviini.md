@@ -104,12 +104,11 @@ Sitten kokeilin pipeä kahdella tavalla, varmistaakseni, että ymmärrän sen to
 
 ### Tukki (g.)
 
-Kirjauduin ensin komentorivin kautta käyttäjälleni, joka onnistui, sillä tiedän salasanani, ja käyttäjä on olemassa. Sitten koetin kirjautua käyttäjälle sudona, mutta kyseistä käyttäjää ei ole olemassa, joten 
+Kirjauduin ensin komentorivin kautta käyttäjälleni, joka onnistui, sillä tiedän salasanani, ja käyttäjä on olemassa. Sitten koetin kirjautua toiselle käyttäjälle, mutta kyseistä käyttäjää ei ole olemassa, joten 
 komento ei onnistunut. Su tarkoittaa substitute useria, eli sijaiskäyttäjää; eli olisin kirjautunut käyttäjän oikeuksilla toiselle käyttäjälle. Omalle käyttäjälle subuserina kirjautuminen onnistui,
 koska tiesin salasanan.
 
-![kuva9](h229.png)
-![kuva10](h230.PNG)
+![kuva8](h231.PNG)
 
 Lähteet:
 
