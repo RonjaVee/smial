@@ -2,43 +2,43 @@
 
 Tiivistelmä Tero Karvisen ohjeen komennoista [Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/):
 
--pwd: Tulostaa tämänhetkisen hakemiston
+- pwd: Tulostaa tämänhetkisen hakemiston
 
--ls: Näyttää tiedostot nykyisessä hakemistossa
+- ls: Näyttää tiedostot nykyisessä hakemistossa
 
--cd: Tällä voi vaihtaa hakemistoa, cd .. peruuttaa
+- cd: Tällä voi vaihtaa hakemistoa, cd .. peruuttaa
 
--less: Tällä voi katsella tekstitiedostoa läpi
+- less: Tällä voi katsella tekstitiedostoa läpi
 
--nano: tekstieditori
+- nano: tekstieditori
 
--mkdir: Tällä tehdään uusi hakemisto
+- mkdir: Tällä tehdään uusi hakemisto
 
--mv: Tällä voi siirtää tai nimetä uudelleen sekä kansioita että tiedostoja
+- mv: Tällä voi siirtää tai nimetä uudelleen sekä kansioita että tiedostoja
 
--cp: Kopioi tiedoston tai hakemiston
+- cp: Kopioi tiedoston tai hakemiston
 
--rmdir: Poistaa tyhjän hakemiston tai tiedoston
+- rmdir: Poistaa tyhjän hakemiston tai tiedoston
 
--rm: poistaa hakemiston tai tiedoston
+- rm: poistaa hakemiston tai tiedoston
 
--ssh: Avaa komentokehotteen, jota voi käyttää etänä ja turvallisesti
+- ssh: Avaa komentokehotteen, jota voi käyttää etänä ja turvallisesti
 
--scp: Kopioi tiedostoja turvallisesti paikallisen ja etänä käytettävän komentokehotteen välillä
+- scp: Kopioi tiedostoja turvallisesti paikallisen ja etänä käytettävän komentokehotteen välillä
 
--man: Avaa komennon manuaalin
+- man: Avaa komennon manuaalin
 
 - --help: Näyttää komentoon sisäänrakennetun ohjeen
-- 
--history: Näyttää komentohistorian
+ 
+- history: Näyttää komentohistorian
 
--sudo: Toteuttaa komentoja pääkäyttäjän oikeuksin
+- sudo: Toteuttaa komentoja pääkäyttäjän oikeuksin
 
--apt-get: Paketinhallintakomento ohjelmien asentamista ja päivittämistä varten
+- apt-get: Paketinhallintakomento ohjelmien asentamista ja päivittämistä varten
 
--apt-cache search: Tällä voi etsiä ohjelmia
+- apt-cache search: Tällä voi etsiä ohjelmia
 
--purge: Poistaa sekä ohjelman että sen järjestelmään tekemät asetukset.
+- purge: Poistaa sekä ohjelman että sen järjestelmään tekemät asetukset.
 
 ## Komentorivitehtävät 
 
@@ -67,21 +67,21 @@ Sitten annoin komennon sudo lshw -short -sanitize uudestaan, ja sain seuraavat t
 
 Tiedoista näki, että:
 
--BIOS vie tilaa 128 KiB
+- BIOS vie tilaa 128 KiB
 
--Virtuaalikoneen RAM on kooltaan 4608 MiB
+- Virtuaalikoneen RAM on kooltaan 4608 MiB
 
--Oman tietokoneeni prosessori on AMD Ryzen 5 3600 6-ytiminen prosessori
+- Oman tietokoneeni prosessori on AMD Ryzen 5 3600 6-ytiminen prosessori
 
--PNP input-kohdassa tarkoittaa Plug and Play; ymmärtääkseni PNP-laitteet varmistavat yhteensopivuuksia automatisoidusti
+- PNP input-kohdassa tarkoittaa Plug and Play; ymmärtääkseni PNP-laitteet varmistavat yhteensopivuuksia automatisoidusti
 
--Tietokoneessani on CD-ROM -asema
+- Tietokoneessani on CD-ROM -asema
 
--Tietokoneeseen voi liittää näytön; liitäntä noudattaa SVGA-standardia
+- Tietokoneeseen voi liittää näytön; liitäntä noudattaa SVGA-standardia
 
--Tietokoneen voi yhdistää Internetiin
+- Tietokoneen voi yhdistää Internetiin
 
--Virtuaalikoneen kiintolevyn kapasiteetti on 21GB
+- Virtuaalikoneen kiintolevyn kapasiteetti on 21GB
 
 ### Ohjelmien asennusta ja testausta (c.)
 
