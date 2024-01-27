@@ -74,9 +74,33 @@ Ja eikun pelaamaan.
 
 ### FSH
 
+Siirryin tehtävänannon mukaan hakemistoissa root- (juurihakemisto) ja home- (kotihakemisto) directoryyn sekä kotihakemiston kautta käyttäjäkohtaiseen directoryyn, jonka kansiot katsoin. 
+
+![kuva1](h221.png)
+![kuva2](h222.png)
+
+Sitten siirryin root directoryn kautta etc-directoryyn (all system wide settings), josta katsoin sen sisältämät tiedostot ja avasin niistä ensimmäisen. Kaikki tiedostot aukeavat tekstitiedostoina.
+
+![kuva3](h223.png)
+
+Media-hakemistossa ei ollut mitään.
+
+![kuva4](h224.png)
+
+Avasin /var/log -hakemiston, ja kokeilin avata yhtä tiedostoa, mutta pääsy oli estetty.
+
+![kuva5](h225.png)
+
 ### Grep-komento
 
-### Pipe
+Kokeilin grep-komentoa Youtube-videon ohjeen avulla.
+
+![kuva6](h226.png)
+
+Sitten kokeilin pipeä kahdella tavalla, varmistaakseni, että ymmärrän sen toimintatavan. Lolcatia olinkin jo käyttänyt pipellä aikaisemmin.
+
+![kuva7](h227.png)
+![kuva8](h228.png)
 
 ### Tukki
 a) Micro. Asenna micro-editori
@@ -95,3 +119,4 @@ https://www.techopedia.com/definition/1287/super-vga-svga
 https://github.com/busyloop/lolcat
 https://github.com/piuccio/cowsay
 https://github.com/YoctoForBeaglebone/pacman4console
+https://www.youtube.com/watch?v=U9SI-wYRD1M
