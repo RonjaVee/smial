@@ -11,24 +11,24 @@ Tehtävän aloitus 19:43.
 
 Aloitin syöttämällä komennon sudo apt-get update.
 
-!(kuva1)[h21.png]
+![kuva1](h21.png)
 
 ### Micron asennus
 
 Micro minulla oli jo asennettuna ja myös ajan tasalla.
 
-!(kuva2)[h22.png]
+![kuva2](h22.png)
 
 ### Rauta
 
 Annoin komennon sudo lshw -short -sanitize, mutta minun täytyi sitä ennen asentaa lshw. Asensin sen komennolla sudo apt-get -y install lshw.
 
-!(kuva3)[h23.png]
+![kuva3](h23.png)
 
 Sitten annoin komennon sudo lshw -short -sanitize uudestaan, ja sain seuraavat tiedot:
 
-!(kuva4)[h24.png]
-!(kuva5)[h25.png]
+![kuva4](h24.png)
+![kuva5](h25.png)
 
 Tiedoista näki, että:
 -BIOS vie tilaa 128 KiB
@@ -45,27 +45,28 @@ Tiedoista näki, että:
 Tero Karvisen ohjeen mukaan samalla komennolla (apt-get) voi asentaa useampia ohjelmia yhdellä komennolla. Niinpä etsin seuraavat ohjelmat ja asensin ne samalla komennolla
 (ja kirjoitin kerran salasanani väärin):
 
-!(kuva6)[h26.png]
+![kuva6](h26.png)
 
 Lolcat: Tekee komentokehotteen tekstistä sateenkaaren värisen, ja sitä voi säädellä oman maun mukaan.
 
-!(kuva7)[h27.png]
-!(kuva8)[h28.png]
+![kuva7](h27.png)
 
 En onnistunut hyödyntämään Thefuck-ohjelmaa, joten asensin vielä Cowsayn.
 
-!(kuva9)[h29.png]
+![kuva8](h28.png)
 
 Cowsay:
 
- !(kuva10)[h210.png]
+ ![kuva9](h29.png)
  
 Pacman4console: Peli vaati suurempaa resoluutiota, enkä nyt kerennyt alkaa selvittää, kuinka resoluutiota voi säätää. 
 
+![kuva10](h210.png)
+
 Asensin siis vielä uuden ohjelman, Angband-pelin:
 
-!(kuva11)[h211.png]
-!(kuva12)[h212.png]
+![kuva11](h211.png)
+![kuva12](h212.png)
 
 Ja eikun pelaamaan.
 
