@@ -1,13 +1,30 @@
 ## Tiivistelmä ohjeesta Command line basics revisited
 
+Tiivistelmä Tero Karvisen ohjeen komennoista [Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/):
 
-
-x) Lue ja tiivistä (Muutama ranskalainen viiva riittää. Tässä alakohdassa ei tarvitse tehdä testejä tietokoneella)
-Karvinen 2020: Command line basics revisited (nämä komennot ja hakemistot kannattaa myös opiskella ulkoa ja harjoitella automaatiotasolle)'
+-pwd: Tulostaa tämänhetkisen hakemiston
+-ls: Näyttää tiedostot nykyisessä hakemistossa
+-cd: Tällä voi vaihtaa hakemistoa, cd .. peruuttaa
+-less: Tällä voi katsella tekstitiedostoa läpi
+-nano: tekstieditori
+-mkdir: Tällä tehdään uusi hakemisto
+-mv: Tällä voi siirtää tai nimetä uudelleen sekä kansioita että tiedostoja
+-cp: Kopioi tiedoston tai hakemiston
+-rmdir: Poistaa tyhjän hakemiston tai tiedoston
+-rm: poistaa hakemiston tai tiedoston
+-ssh: Avaa komentokehotteen, jota voi käyttää etänä ja turvallisesti
+-scp: Kopioi tiedostoja turvallisesti paikallisen ja etänä käytettävän komentokehotteen välillä
+-man: Avaa komennon manuaalin
+- --help: Näyttää komentoon sisäänrakennetun ohjeen
+-history: Näyttää komentohistorian
+-sudo: Toteuttaa komentoja pääkäyttäjän oikeuksin
+-apt-get: Paketinhallintakomento ohjelmien asentamista ja päivittämistä varten
+-apt-cache search: Tällä voi etsiä ohjelmia
+-purge: Poistaa sekä ohjelman että sen järjestelmään tekemät asetukset.
 
 ## Komentorivitehtävät 
 
-Tehtävän aloitus 19:43.
+Tehtävän aloitus 19:43, 27.1.2024.
 
 Aloitin syöttämällä komennon sudo apt-get update.
 
@@ -42,7 +59,7 @@ Tiedoista näki, että:
 
 ### Ohjelmien asennusta ja testausta (c.)
 
-Tero Karvisen ohjeen mukaan samalla komennolla (apt-get) voi asentaa useampia ohjelmia yhdellä komennolla. Niinpä etsin seuraavat ohjelmat ja asensin ne samalla komennolla
+Tero Karvisen [Command Line Basics Revisited -ohjeen](https://terokarvinen.com/2020/command-line-basics-revisited/) mukaan samalla komennolla (apt-get) voi asentaa useampia ohjelmia yhdellä komennolla. Niinpä etsin seuraavat ohjelmat ja asensin ne samalla komennolla
 (ja kirjoitin kerran salasanani väärin):
 
 ![kuva6](h26.png)
@@ -74,7 +91,7 @@ Ja eikun pelaamaan.
 
 ### FSH (d.)
 
-Siirryin tehtävänannon mukaan hakemistoissa root- (juurihakemisto) ja home- (kotihakemisto) directoryyn sekä kotihakemiston kautta käyttäjäkohtaiseen directoryyn, jonka kansiot katsoin. 
+Siirryin Tero Karvisen [tehtävänannon](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h2-komentaja-pingviini) mukaan hakemistoissa root- (juurihakemisto) ja home- (kotihakemisto) directoryyn sekä kotihakemiston kautta käyttäjäkohtaiseen directoryyn, jonka kansiot katsoin. 
 
 ![kuva1](h221.png)
 ![kuva2](h222.png)
@@ -93,7 +110,7 @@ Avasin /var/log -hakemiston, ja kokeilin avata yhtä tiedostoa, mutta pääsy ol
 
 ### Grep-komento ja pipe (e. ja f.)
 
-Kokeilin grep-komentoa Youtube-videon ohjeen avulla. Grep-komennolla voidaan hakea tiettyä tekstiä tiedostoista taikka syötteestä.
+Kokeilin grep-komentoa [käyttäjän HackerSploit Youtube-videon Linux Essentials For Hackers - #6 - grep & piping](https://www.youtube.com/watch?v=U9SI-wYRD1M) ohjeen avulla. Grep-komennolla voidaan hakea tiettyä tekstiä tiedostoista taikka syötteestä.
 
 ![kuva6](h226.png)
 
@@ -110,13 +127,31 @@ koska tiesin salasanan.
 
 ![kuva8](h231.PNG)
 
-Lähteet:
+Lopetin puuhailun kello 22:50, 27.1.2024.
 
-https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h2-komentaja-pingviini
-https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
-https://www.techopedia.com/definition/1287/super-vga-svga
-https://github.com/busyloop/lolcat
-https://github.com/piuccio/cowsay
-https://github.com/YoctoForBeaglebone/pacman4console
-https://www.youtube.com/watch?v=U9SI-wYRD1M
-https://en.wikipedia.org/wiki/Su_(Unix)
+
+
+### Lähteet:
+
+Tehtävänanto: Tero Karvinen 11.1.2024. Linux Palvelimet 2024. [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h2-komentaja-pingviini](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h2-komentaja-pingviini)
+
+Karvinen, Tero. Command line basics revisited. 3.2.2020. [https://terokarvinen.com/2020/command-line-basics-revisited/](https://terokarvinen.com/2020/command-line-basics-revisited/)
+
+Rouse, Margaret. What Does Super Video Graphics Array Mean? 14.11.2016. Techopedia. [https://www.techopedia.com/definition/1287/super-vga-svga](https://www.techopedia.com/definition/1287/super-vga-svga)
+
+Busyloop. lolcat. 3.12.2021. GitHub. [https://github.com/busyloop/lolcat](https://github.com/busyloop/lolcat) Katsottu 27.1.2024
+
+Piuccio. cowsay. 25.1.2024. Github. [https://github.com/piuccio/cowsay](https://github.com/piuccio/cowsay) Katsottu 27.1.2024.
+
+YoctoForBeaglebone. pacman4console. 1.2.2024. Github. [https://github.com/YoctoForBeaglebone/pacman4console](https://github.com/YoctoForBeaglebone/pacman4console) Katsottu 27.1.2024.
+
+Angband. Angband. 21.1.2024. Github. [https://github.com/angband/angband](https://github.com/angband/angband). Katsottu 27.1.2024.
+
+käyttäjän HackerSploit Youtube-video Linux Essentials For Hackers - #6 - grep & piping. 6.11.2019. [https://www.youtube.com/watch?v=U9SI-wYRD1M](https://www.youtube.com/watch?v=U9SI-wYRD1M) Katsottu 27.1.2024
+
+Wikipedia contributors. su (Unix). Wikipedia, the free encyclopedia. 27.1.2022. [https://en.wikipedia.org/wiki/Su_(Unix)](https://en.wikipedia.org/wiki/Su_(Unix)) Katsottu 27.1.2024.
+
+
+
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. [http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
+
