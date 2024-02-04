@@ -1,5 +1,17 @@
  
+ ### Tiivistelmä
+
+ Tiivistelmä seuraavista sivuista:
+ [The Apache Software Foundation: Name-based Virtual Host Support](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)
+ [Tero Karvinen: Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address](Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address)
  
+- Apache-nimipohjaiset virtuaalihostaukset (name based virtual hosts) mahdollistavat useiden sivustojen ylläpitämisen saman IP-osoitteen alla
+- Yksinkertaistaa asetusten hallintaa ja säästää IP-osoitteita
+- On tärkeää määrittää jokaiselle virtuaalihostille ServerName välttääkseen perityt nimet palvelimen peruskonfiguraatiosta
+- ServerAliaksella voi määrittää lisänimiä virtuaalihostille
+- Konfiguraation järjestys on merkityksellinen, ja ensimmäinen sopiva ServerName tai ServerAlias otetaan käyttöön
+
+
  
  ### Localhost vastaa
 
@@ -64,18 +76,48 @@ Käytin HTML-kieltä sivun laatimiseen. Index.html -tiedostoa voi muokata ilman 
 
 ### Curl-komennot
 
+Tein curl-komennon localhostista (IP-osoite 127.0.0.1). Komento näytti, mitä sivustolla näkyy (index.html -tiedoston sisältö).
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/d86b7b64-2171-4937-bd7b-aab17947f8ec)
+
+Curl -I -komento näytti seuraavaa:
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/d4d8b516-b6ac-4432-b7d6-da9573ca07a8)
+
+- HTTP/1.1 200 OK: Käytetty HTTP-protokolla ja versio sekä statuskoodi (200 OK = pyyntö onnistui)
+- Server: Kertoo käytetyn web-palvelimen ja sen version, tässä toki Apache
+- Date, eli komennon aikaleima, palvelimen aika vastauksen lähettämisen hetkellä
+- ETag kertoo, mikä versio sivustosta näkyy (jos se muuttuu, on sivusto päivittynyt)
+- Accept-Ranges:  Tarkoittaa, että palvelin tukee osapyyntöjä tavuina (bytes)
+- Content-Length: 144: Vastauksen koko tavuina
 
 
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. [http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
+
+Lähteet (haettu 4.2.2024):
+
+Pohjana tehtävänanto: Karvinen, Tero. Linux Palvelimet 2024. 1.11.2024. [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h3-hello-web-server](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h3-hello-web-server)
+
+[The Apache Software Foundation. Name-based Virtual Host Support. 2023. [https://httpd.apache.org/docs/2.4/vhosts/name-based.html](https://httpd.apache.org/docs/2.4/vhosts/name-based.html)
+
+Karvinen, Tero. Command line basics revisited. 3.2.2020. [https://terokarvinen.com/2020/command-line-basics-revisited/](https://terokarvinen.com/2020/command-line-basics-revisited/)
+
+Karvinen, Tero. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. 10.4.2018. [https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/](https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/)
+
+Fitzpatrick, Scott. Understanding the Apache Access Log: View, Locate and Analyze. 14.1.2020. sumo logic. [https://www.sumologic.com/blog/apache-access-log/](https://www.sumologic.com/blog/apache-access-log/)
+
+Ayooluwa, Isaiah. How to View and Configure Apache Access & Error Logs. 12.10.2023. Betterstack. [https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/](https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/)
+
+Ahrefs. 304 Not Modified: What is 304 Not Modified Response? 2024. [https://ahrefs.com/seo/glossary/304-not-modified](https://ahrefs.com/seo/glossary/304-not-modified)
 
 
-Lähteet:
-https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h3-hello-web-server
-https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
-https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
-https://www.sumologic.com/blog/apache-access-log/
-https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/
-https://ahrefs.com/seo/glossary/304-not-modified
-https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb
+chrisvfritz. Simplest possible HTML template. 18.11.2014. Github. [https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb](https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb)
+
+Curl. Conditionals. 13.1.2024. [https://everything.curl.dev/http/conditionals](https://everything.curl.dev/http/conditionals)
+
+Geeksforgeeks. HTTP headers | Accept-Ranges. 31.10.2019. [https://www.geeksforgeeks.org/http-headers-accept-ranges/](https://www.geeksforgeeks.org/http-headers-accept-ranges/)
+
+
 
 
  
