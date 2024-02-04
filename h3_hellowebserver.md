@@ -36,6 +36,36 @@ komentokehotteessa.
 - -	:Tässä kohtaa tarkoittaa, ettei viittausta (refer) ole saatavilla, eli  tietoa siitä, mistä osoitteesta pyyntö tuli.
 Mozilla-kohdasta eteenpäin näkee käytetyn selaimen ja sen version.
 
+### Uusi name based virtual host
+
+Lähdin luomaan uutta sivua edellisen tapaan ohjeen(linkki) mukaan. Aloitin luomalla konfiguraatiotiedoston. Tämä konfiguraatiotiedosto asettaa sivuston "hattu.example.com" toimittamaan tiedostoja hakemistosta
+"/home/xubuntu/publicsites/pyora.example.com" ja vastaamaan pyyntöihin, jotka kohdistuvat sekä pyora.example.com -sivustoon. 
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/c4157557-90d6-41de-b024-5180eaa2ef50)
+
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/b7ababaf-0194-4feb-b2f6-e3473a38d62d)
+
+Sitten kirjoitin sivustolle vähän tekstiä testatakseni, että se näkyy kuten pitää.
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/032d54cb-5f9f-4620-802d-5fe7e2617b96)
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/ac8c62a6-fc6a-4f8a-9dda-3314e08e6af8)
+
+Poistin vanhan sivun sites-enabled -kansiosta.
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/0aff4e2a-0577-45db-bc71-3f84d33d35d0)
+
+Käytin HTML-kieltä sivun laatimiseen. Index.html -tiedostoa voi muokata ilman sudoa, joten näitä kokeiluja voi tehdä ilman pääkäyttäjän oikeuksia.
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/c36b34f7-0ad0-4c41-9859-9e8065d13639)
+![image](https://github.com/RonjaVee/smial/assets/148786247/dc41c37a-dbf3-4ea2-9e93-bb06b42598db)
+![image](https://github.com/RonjaVee/smial/assets/148786247/2980f10a-6257-46e9-bdcd-3f7a8db55388)
+
+### Curl-komennot
+
+
+
 
 
 Lähteet:
