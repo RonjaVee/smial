@@ -94,6 +94,9 @@ Curl -I -komento näytti seuraavaa:
 - Content-Length: 144: Vastauksen koko tavuina
 
 
+
+
+
 Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. [http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
 
 Lähteet (haettu 4.2.2024):
