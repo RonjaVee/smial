@@ -1,5 +1,5 @@
  
- ### Tiivistelmä
+ ## Tiivistelmä
 
  Tiivistelmä seuraavista sivuista:
  
@@ -13,7 +13,7 @@
 - ServerAliaksella voi määrittää lisänimiä virtuaalihostille
 - Konfiguraation järjestys on merkityksellinen, ja ensimmäinen sopiva ServerName tai ServerAlias otetaan käyttöön
 
-
+##Tehtävät
  
  ### Localhost vastaa
 
