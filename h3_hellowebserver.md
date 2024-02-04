@@ -97,9 +97,9 @@ Curl -I -komento näytti seuraavaa:
 
 
 
-Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. [http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
 
-Lähteet (haettu 4.2.2024):
+
+### Lähteet (haettu 4.2.2024):
 
 Pohjana tehtävänanto: Karvinen, Tero. Linux Palvelimet 2024. 1.11.2024. [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h3-hello-web-server](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h3-hello-web-server)
 
@@ -122,8 +122,9 @@ Curl. Conditionals. 13.1.2024. [https://everything.curl.dev/http/conditionals](h
 
 Geeksforgeeks. HTTP headers | Accept-Ranges. 31.10.2019. [https://www.geeksforgeeks.org/http-headers-accept-ranges/](https://www.geeksforgeeks.org/http-headers-accept-ranges/)
 
+###
 
-
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. [http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
 
  
  
