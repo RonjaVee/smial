@@ -83,8 +83,9 @@ Käytin HTML-kieltä sivun laatimiseen. Index.html -tiedostoa voi muokata ilman 
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/c36b34f7-0ad0-4c41-9859-9e8065d13639)
 ![image](https://github.com/RonjaVee/smial/assets/148786247/dc41c37a-dbf3-4ea2-9e93-bb06b42598db)
-![image](https://github.com/RonjaVee/smial/assets/148786247/7ba10dda-4497-4566-a94c-5b3be077d10a)
-![image](https://github.com/RonjaVee/smial/assets/148786247/2980f10a-6257-46e9-bdcd-3f7a8db55388)
+![image](https://github.com/RonjaVee/smial/assets/148786247/9e3e79e6-af6e-4912-8c36-1057e86978ca)
+![image](https://github.com/RonjaVee/smial/assets/148786247/e91574f5-2623-42fa-9335-b86b757a2f4d)
+
 
 ### Curl-komennot
 
