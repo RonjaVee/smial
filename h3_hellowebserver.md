@@ -50,6 +50,15 @@ komentokehotteessa.
 - "-"	:Tässä kohtaa tarkoittaa, ettei viittausta (refer) ole saatavilla, eli  tietoa siitä, mistä osoitteesta pyyntö tuli.
 Mozilla-kohdasta eteenpäin näkee käytetyn selaimen ja sen version.
 
+Etsitty vastaukset täältä: 
+
+Fitzpatrick, Scott. Understanding the Apache Access Log: View, Locate and Analyze. 14.1.2020. sumo logic. [https://www.sumologic.com/blog/apache-access-log/](https://www.sumologic.com/blog/apache-access-log/)
+
+Ayooluwa, Isaiah. How to View and Configure Apache Access & Error Logs. 12.10.2023. Betterstack. [https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/](https://betterstack.com/community/guides/logging/how-to-view-and-configure-apache-access-and-error-logs/)
+
+Ahrefs. 304 Not Modified: What is 304 Not Modified Response? 2024. [https://ahrefs.com/seo/glossary/304-not-modified](https://ahrefs.com/seo/glossary/304-not-modified)
+
+
 ### Uusi name based virtual host
 
 Lähdin luomaan uutta sivua edellisen tapaan ohjeen(linkki) mukaan. Aloitin luomalla konfiguraatiotiedoston. Tämä konfiguraatiotiedosto asettaa sivuston "hattu.example.com" toimittamaan tiedostoja hakemistosta
@@ -70,7 +79,8 @@ Poistin vanhan sivun sites-enabled -kansiosta.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/0aff4e2a-0577-45db-bc71-3f84d33d35d0)
 
-Käytin HTML-kieltä sivun laatimiseen. Index.html -tiedostoa voi muokata ilman sudoa, joten näitä kokeiluja voi tehdä ilman pääkäyttäjän oikeuksia.
+Käytin HTML-kieltä sivun laatimiseen. Index.html -tiedostoa voi muokata ilman sudoa, joten näitä kokeiluja voi tehdä ilman pääkäyttäjän oikeuksia. Käytin html-sivun pohjana: chrisvfritz. Simplest possible HTML template. 18.11.2014. Github. [https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb](https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb)
+
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/c36b34f7-0ad0-4c41-9859-9e8065d13639)
 ![image](https://github.com/RonjaVee/smial/assets/148786247/dc41c37a-dbf3-4ea2-9e93-bb06b42598db)
@@ -92,6 +102,12 @@ Curl -I -komento näytti seuraavaa:
 - ETag kertoo, mikä versio sivustosta näkyy (jos se muuttuu, on sivusto päivittynyt)
 - Accept-Ranges:  Tarkoittaa, että palvelin tukee osapyyntöjä tavuina (bytes)
 - Content-Length: 144: Vastauksen koko tavuina
+
+Vastaukset etsitty täältä: 
+
+Curl. Conditionals. 13.1.2024. [https://everything.curl.dev/http/conditionals](https://everything.curl.dev/http/conditionals)
+
+Geeksforgeeks. HTTP headers | Accept-Ranges. 31.10.2019. [https://www.geeksforgeeks.org/http-headers-accept-ranges/](https://www.geeksforgeeks.org/http-headers-accept-ranges/)
 
 
 
@@ -125,6 +141,10 @@ Geeksforgeeks. HTTP headers | Accept-Ranges. 31.10.2019. [https://www.geeksforge
 #
 
 Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. [http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
+
+#
+
+päivitetty lähteitä tekstin lomaan 6.2.2024.
 
  
  
