@@ -78,11 +78,12 @@ Poistin vanhan sivun sites-enabled -kansiosta.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/0aff4e2a-0577-45db-bc71-3f84d33d35d0)
 
-Käytin HTML-kieltä sivun laatimiseen. Index.html -tiedostoa voi muokata ilman sudoa, joten näitä kokeiluja voi tehdä ilman pääkäyttäjän oikeuksia. Käytin html-sivun pohjana: chrisvfritz. Simplest possible HTML template. 18.11.2014. Github. [https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb](https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb)
+Käytin HTML-kieltä sivun laatimiseen. Index.html -tiedostoa voi muokata ilman sudoa, joten näitä kokeiluja voi tehdä ilman pääkäyttäjän oikeuksia. Käytin html-sivun pohjana: chrisvfritz. Simplest possible HTML template. 18.11.2014. Github. [https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb](https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb) Korjailin sitä kuitenkin sen verran, että meni validoinnista läpi sivulla ja muokkasin tekstiä [https://www.freeformatter.com/html-validator.html](https://www.freeformatter.com/html-validator.html)
 
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/c36b34f7-0ad0-4c41-9859-9e8065d13639)
 ![image](https://github.com/RonjaVee/smial/assets/148786247/dc41c37a-dbf3-4ea2-9e93-bb06b42598db)
+![image](https://github.com/RonjaVee/smial/assets/148786247/7ba10dda-4497-4566-a94c-5b3be077d10a)
 ![image](https://github.com/RonjaVee/smial/assets/148786247/2980f10a-6257-46e9-bdcd-3f7a8db55388)
 
 ### Curl-komennot
@@ -143,7 +144,7 @@ Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 
 
 #
 
-päivitetty lähteitä tekstin lomaan 6.2.2024.
+päivitetty lähteitä tekstin lomaan sekä näytetty validoitu html 6.2.2024.
 
  
  
