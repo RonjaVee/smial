@@ -45,8 +45,7 @@ komentokehotteessa.
 - toinen "-" : käyttäjän tunnus (nyt tyhjä)
 - Seuraavaksi on aikaleima, jolloin pyyntö on tehty. Tässä kohti näkyy eri päivä kuin tehtävää tehdessäni oli.
 - GET-kohdassa kerrotaan pyynnön tyyppi: tässä kohteena index.html ja pyynnön protokolla ja versio http/1.1
-- Luku 304 on statuskoodi ja 247 kertoo, kuinka paljon dataa tavuina siirtyi palvelimelta kyselyn esittäjälle. Statuskoodi 304 tarkoittaa, ettei sivua olla muokattu sitten viime pyynnön, 
-- joten tiedonsiirtoa ei tehdä uudestaan, vaan sivusto näyttää välimuistiversion.
+- Luku 304 on statuskoodi ja 247 kertoo, kuinka paljon dataa tavuina siirtyi palvelimelta kyselyn esittäjälle. Statuskoodi 304 tarkoittaa, ettei sivua olla muokattu sitten viime pyynnön, joten tiedonsiirtoa ei tehdä uudestaan, vaan sivusto näyttää välimuistiversion.
 - "-"	:Tässä kohtaa tarkoittaa, ettei viittausta (refer) ole saatavilla, eli  tietoa siitä, mistä osoitteesta pyyntö tuli.
 Mozilla-kohdasta eteenpäin näkee käytetyn selaimen ja sen version.
 
