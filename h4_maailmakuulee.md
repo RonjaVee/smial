@@ -1,5 +1,6 @@
 ### Tiivistelmä
 
+
 Tiivistelmä seuraavista ohjeista:
  Lehto, Susanna. Teoriasta käytäntöön pilvipalvelimen avulla (h4). 14.2.2022 [https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/)
 Karvinen, Tero. First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS. 19.9.2017.[https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/?fromSearch=first%20steps%20on](https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/?fromSearch=first%20steps%20on)
@@ -21,6 +22,7 @@ $ sudo apt-get upgrade
 $ sudo apt-get dist-upgrade
 
 ### Virtuaalipalvelimen vuokraus
+
 
 Virtuaalipalvelimen vuokraamisen tilanne on tällä hetkellä tämä: 
 
