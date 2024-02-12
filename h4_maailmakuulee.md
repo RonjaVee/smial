@@ -30,5 +30,6 @@ Virtuaalipalvelimen vuokraamisen tilanne on tällä hetkellä tämä:
 
 
 
-Pääsy on evätty taikka odottaa vastausta kaikkiin palveluihin joita kokeilin käyttää.
+Pääsy on evätty taikka odottaa vastausta kaikkiin palveluihin joita kokeilin käyttää (DigitalOcean, Linode, GitHub education). Katselin muitakin vaihtoehtoja, mutta hinnat olivat aika suolaisia niissä mitkä
+vaikutti muutoin luotettavilta.
 12.2.2024 klo. 22:18.
