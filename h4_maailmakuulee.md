@@ -1,4 +1,4 @@
-### Tiivistelmä
+## Tiivistelmä
 #
 
 Tiivistelmä seuraavista ohjeista:
@@ -21,7 +21,7 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get dist-upgrade
 
-### Virtuaalipalvelimen vuokraus
+## Virtuaalipalvelimen vuokraus
 #
 
 Virtuaalipalvelimen vuokraamisen tilanne on tällä hetkellä tämä: 
