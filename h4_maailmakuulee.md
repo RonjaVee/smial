@@ -26,6 +26,8 @@ Virtuaalipalvelimen vuokraamisen tilanne on tällä hetkellä tämä:
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/f447cace-1059-4160-8304-c36df981deaf)
 
-![Screenshot_20240212_210414_Outlook](https://github.com/RonjaVee/smial/assets/148786247/74f1d83e-1673-484f-b6b2-c89a48a09fb9)
+![image](https://github.com/RonjaVee/smial/assets/148786247/719c8fbe-c90e-48db-bf9e-0e4e98e259f7)
+
+
 
 Pääsy on evätty taikka odottaa vastausta kaikkiin palveluihin joita kokeilin käyttää.
