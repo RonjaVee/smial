@@ -31,3 +31,4 @@ Virtuaalipalvelimen vuokraamisen tilanne on tällä hetkellä tämä:
 
 
 Pääsy on evätty taikka odottaa vastausta kaikkiin palveluihin joita kokeilin käyttää.
+12.2.2024 klo. 22:18.
