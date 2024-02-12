@@ -1,5 +1,5 @@
 ### Tiivistelmä
-
+#
 
 Tiivistelmä seuraavista ohjeista:
  Lehto, Susanna. Teoriasta käytäntöön pilvipalvelimen avulla (h4). 14.2.2022 [https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/](https://susannalehto.fi/2022/teoriasta-kaytantoon-pilvipalvelimen-avulla-h4/)
@@ -22,7 +22,7 @@ $ sudo apt-get upgrade
 $ sudo apt-get dist-upgrade
 
 ### Virtuaalipalvelimen vuokraus
-
+#
 
 Virtuaalipalvelimen vuokraamisen tilanne on tällä hetkellä tämä: 
 
