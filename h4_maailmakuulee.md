@@ -55,6 +55,7 @@ Datakeskukseksi valitsin alankomaalaisen vaihtoehdon, sillä se on maantieteelli
 ![image](https://github.com/RonjaVee/smial/assets/148786247/54867115-8fc0-4d11-9437-9c727db529d6)
 
 Seuraavaksi loin virtuaalikoneen, jossa käyttöjärjestelmä on Debian, ja se toimii jaetulla CPU:lla (se on halvin vaihtoehto ja tässä riittävä). Hinnaksi muodostui näillä valinnoilla 6 dollaria kuussa.
+Ensimmäisen projektini ip-osoitteeksi sain 178.62.242.141.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/af2c9add-e84b-429b-adea-b836f044aee7)
 
@@ -62,7 +63,7 @@ Seuraavaksi loin virtuaalikoneen, jossa käyttöjärjestelmä on Debian, ja se t
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/f71b0f5a-52a0-4878-9181-7203e4820d75)
 
-![image](https://github.com/RonjaVee/smial/assets/148786247/ef702445-c09d-44c5-a542-fbe6bd5a4639)
+
 
 
 
