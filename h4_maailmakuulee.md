@@ -56,8 +56,6 @@ Datakeskukseksi valitsin alankomaalaisen vaihtoehdon, sillä se on maantieteelli
 
 Seuraavaksi loin virtuaalikoneen, jossa käyttöjärjestelmä on Debian, ja se toimii jaetulla CPU:lla (se on halvin vaihtoehto ja tässä riittävä). Hinnaksi muodostui näillä valinnoilla 6 dollaria kuussa.
 
-![image](https://github.com/RonjaVee/smial/assets/148786247/ae2c1f65-59b4-4700-81d0-28a3d2db2259)
-
 ![image](https://github.com/RonjaVee/smial/assets/148786247/af2c9add-e84b-429b-adea-b836f044aee7)
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/155451a4-b996-4055-b3c6-11e12b7e3903)
