@@ -64,12 +64,41 @@ Ensimmäisen projektini ip-osoitteeksi sain 178.62.242.141.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/f71b0f5a-52a0-4878-9181-7203e4820d75)
 
+Sitten otin virtuaalikoneellani yhteyttä DigitalOceanissa luotuun virtuaalikoneeseen, jota varten minun täytyi asentaa ensin openssh.
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/93ee6e84-793a-4726-aa16-60e30390a04a)
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/8ff1f716-812d-4005-8d3e-530ec41f3ea4)
+
+Sitten asensin palomuurin Tero Karvisen ohjeen mukaisesti ja tein siihen reiän.
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/e2efd9d1-1e45-41ee-9619-1303008513ee)
+
+Loin sitten koneelle käyttäjän josta tein pääkäyttäjän. Ajoin myös päivitykset.
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/041e02ae-66ca-4bcb-a2e7-aaeab6ee9c58)
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/9eb6d38a-26c4-46f1-813a-84eca666fba4)
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/29bea981-205c-41ba-bbbf-b6e7cde94329)
 
 
+Lukitsin rootin ja estin rootin kautta kirjautumisen, eli koneelle pääsee nyt vain pääkäyttäjän salasanalla (joka on vahva, jottei sinne pääse ulkopuolisia pahiksia).
 
 
+![image](https://github.com/RonjaVee/smial/assets/148786247/f8521b42-b02b-4f8a-9885-282b2af14df3)
 
+![image](https://github.com/RonjaVee/smial/assets/148786247/8e2d479e-dbd5-4838-9496-e88755439dce)
 
+Sitten asensin apache2:
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/70880d84-9c05-4660-977f-7ff14f38c871)
+
+Ja tein reiän palomuuriin, jotta esimerkkisivu tulisi näkyviin, ja niinhän se näkyikin, kun katselin sivua kotikoneen Chromesta.
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/c2682f28-3a84-4694-a34c-d1ad6cd8f8c5)
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/6aa74659-2b05-4850-b755-6000361c59cd)
 
 
 
