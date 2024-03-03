@@ -32,6 +32,7 @@ RAM: 16,0 Gt
 
 Windows 10 Pro, versio 22H2
 
+##
 
 Virtuaalipalvelimen vuokraamisen tilanne oli aikaisemmin tämä: 
 
