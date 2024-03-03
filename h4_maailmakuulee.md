@@ -37,19 +37,24 @@ Virtuaalipalvelimen vuokraamisen tilanne oli aikaisemmin tämä:
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/f447cace-1059-4160-8304-c36df981deaf)
 
-![image](https://github.com/RonjaVee/smial/assets/148786247/719c8fbe-c90e-48db-bf9e-0e4e98e259f7)
-
 
 
 Pääsy oli evätty taikka odotti vastausta kaikkiin palveluihin joita kokeilin käyttää (DigitalOcean, Linode, GitHub education). Katselin muitakin vaihtoehtoja, mutta hinnat olivat aika suolaisia niissä mitkä
 vaikutti muutoin luotettavilta.
 12.2.2024 klo. 22:18.
 
-Pääsin vihdoin hyödyntämään DigitalOceania GitHub educationin kautta. GitHubin kautta DigitalOceaniin sai 200 dollarin edestä krediittejä, niin dropletin ylläpitäminen on nyt jonkin aikaa ilmaista.
+Pääsin vihdoin hyödyntämään DigitalOceania GitHub educationin kautta. GitHubin kautta DigitalOceaniin sai 200 dollarin edestä krediittejä, niin dropletin ylläpitäminen on nyt jonkin aikaa ilmaista. Namecheapin kanssa tuli 
+ongelmia, kun varmistussähköpostia ei kuulunut.
+
+Lähdin DigitalOceanissa luomaan droplettia kohdasta deploy a virtual machine.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/dc75cfc1-c8d4-4ba5-99c7-bcb15981ca08)
 
+Datakeskukseksi valitsin alankomaalaisen vaihtoehdon, sillä se on maantieteellisesti lähellä.
+
 ![image](https://github.com/RonjaVee/smial/assets/148786247/54867115-8fc0-4d11-9437-9c727db529d6)
+
+Seuraavaksi loin virtuaalikoneen, jossa käyttöjärjestelmä on Debian, ja se toimii jaetulla CPU:lla (se on halvin vaihtoehto ja tässä riittävä). Hinnaksi muodostui näillä valinnoilla 6 dollaria kuussa.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/ae2c1f65-59b4-4700-81d0-28a3d2db2259)
 
