@@ -35,7 +35,7 @@ Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokar
 - Luo uusi sovellus CRM:lle, määritä mallit ja rekisteröi ne hallintaliittymässä
   > ./manage.py startapp crm
   
-  > ronja/settings.py -> crm kohtaan INSTALLED_APPS
+  > "nimi"/settings.py -> crm kohtaan INSTALLED_APPS
   
 - Mukauta asiakkaiden nimien näyttöä hallintaliittymässä
   > crm/models.py
@@ -58,11 +58,11 @@ Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokar
   > sudo systemctl restart apache2
 
 - Poista DEBUG-tila käytöstä ja määritä ALLOWED_HOSTS
-  > cd -> cd publicwsgi/teroco/ -> micro teroco/settings.py
+  > cd -> cd publicsites/"nimi"/ -> micro "nimi"/settings.py
   
   > DEBUG = False
   
-  > ALLOWED_HOSTS = ["localhost", "hello.terokarvinen.com"]
+  > ALLOWED_HOSTS = ["localhost", "nimi"]
 
 - Kerää staattiset tiedostot
 
