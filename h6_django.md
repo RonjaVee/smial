@@ -187,10 +187,13 @@ Sivu näytti edelleen samalta. Korjasin vielä uudestaan ohjeen mukaa, mutta sek
 ### Lähteet
 
 
+Kurssi: Tero Karvinen, 2024: Linux Palvelimet 2024 alkukevät, [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/)
 
 Karvinen, Tero. Django 4 Instant Customer Database Tutorial. 13.2.2022. [https://terokarvinen.com/2022/django-instant-crm-tutorial/](https://terokarvinen.com/2022/django-instant-crm-tutorial/)
 
 Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokarvinen.com/2022/deploy-django/?fromSearch=django](https://terokarvinen.com/2022/deploy-django/?fromSearch=django)
+
+OpenAI: ChatGPT, versio 3.5. 4.3.2024
 
 
 
