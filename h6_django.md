@@ -9,13 +9,15 @@ Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokar
 
 - Luo virtuaaliympäristö (virtualenv) ja aktivoi se 
   > virtualenv --system-site-packages -p python3
+  
   > env/source env/bin/activate
 
-- Asenna Django ja tarkista sen versio 
+- Asenna Django ja tarkista sen versio
   > django-admin --version
 
 - Luo uusi Django-projekti
   > django-admin startproject "nimi"
+  
   > cd "nimi"
 
 - Käynnistä palvelin ja avaa tervetulonäkymä (raketin kuva)
@@ -25,15 +27,19 @@ Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokar
   
 - päivitä tietokannat ja luo pääkäyttäjä
   > ./manage.py makemigrations
+  
   > ./manage.py migrate
+  
   > ./manage.py createsuperuser
 
 - Luo uusi sovellus CRM:lle, määritä mallit ja rekisteröi ne hallintaliittymässä
   > ./manage.py startapp crm
+  
   > ronja/settings.py -> crm kohtaan INSTALLED_APPS
   
 - Mukauta asiakkaiden nimien näyttöä hallintaliittymässä
   > crm/models.py
+  
   > class Customer(models.Model):
     name = models.CharField(max_length=160)
 
@@ -48,11 +54,14 @@ Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokar
   
 - Tarkista, että luotu syntaksi on ok ja käynnistä Apache uudelleen
   > /sbin/apache2ctl configtest
+  
   > sudo systemctl restart apache2
 
 - Poista DEBUG-tila käytöstä ja määritä ALLOWED_HOSTS
   > cd -> cd publicwsgi/teroco/ -> micro teroco/settings.py
+  
   > DEBUG = False
+  
   > ALLOWED_HOSTS = ["localhost", "hello.terokarvinen.com"]
 
 - Kerää staattiset tiedostot
