@@ -30,6 +30,14 @@ Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokar
 
 - Luo uusi sovellus CRM:lle, määritä mallit ja rekisteröi ne hallintaliittymässä
   > ./manage.py startapp crm
+  > INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'crm', # add this
   
 - Mukauta asiakkaiden nimien näyttöä hallintaliittymässä
   > crm/models.py
@@ -180,9 +188,15 @@ Vielä tilanne ei korjaantunut, ja tarkistin vielä crm/models.py:n ja annoin mi
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/59734e67-0f0b-4e56-acf6-8abe342d69ba)
 
-Sivu näytti edelleen samalta. Korjasin vielä uudestaan ohjeen mukaa, mutta sekään ei korjannut tilannetta.
+Sivu näytti edelleen samalta. Korjasin vielä uudestaan ohjeen mukaan, mutta sekään ei korjannut tilannetta.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/28d04d65-565c-4af2-ab69-ecae5ae175b1)
+
+Sitten huomasin ohjeesta kohdan, joka jäi suorittamatta. Kun laitoin ronja/settings.py -tiedostoon crm:n INSTALLED_APPS -kohtaan ja päivitin tietokannat, ja homma eteni.
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/c22d5949-beed-4958-8d64-b2f647621d62)
+
+![image](https://github.com/RonjaVee/smial/assets/148786247/7c11838e-5f4d-448b-b43c-b459f7feb051)
 
 
 
