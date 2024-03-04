@@ -12,6 +12,7 @@ Windows 10 Pro, versio 22H2
 
 Tiivistelmä ohjeista:
 Karvinen, Tero. Django 4 Instant Customer Database Tutorial. 13.2.2022. [https://terokarvinen.com/2022/django-instant-crm-tutorial/](https://terokarvinen.com/2022/django-instant-crm-tutorial/)
+
 Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokarvinen.com/2022/deploy-django/?fromSearch=django](https://terokarvinen.com/2022/deploy-django/?fromSearch=django)
 
 - Asenna tarvittavat paketit ja työkalut (micro, pwgen) 
