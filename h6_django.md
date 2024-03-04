@@ -30,14 +30,7 @@ Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokar
 
 - Luo uusi sovellus CRM:lle, määritä mallit ja rekisteröi ne hallintaliittymässä
   > ./manage.py startapp crm
-  > INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'crm', # add this
+  > ronja/settings.py -> crm kohtaan INSTALLED_APPS
   
 - Mukauta asiakkaiden nimien näyttöä hallintaliittymässä
   > crm/models.py
