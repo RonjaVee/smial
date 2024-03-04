@@ -1,13 +1,3 @@
-### Oman koneen tiedot
-
-AMD Ryzen 5 3600 6-Core Processor 3.59 GHz
-
-RAM: 16,0 Gt
-
-64-bittinen käyttöjärjestelmä, x64-suoritin
-
-Windows 10 Pro, versio 22H2
-
 ## Tiivistelmä
 
 Tiivistelmä ohjeista:
@@ -74,6 +64,18 @@ Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokar
 
 
 ## Tehtävät
+
+### Oman koneen tiedot
+
+AMD Ryzen 5 3600 6-Core Processor 3.59 GHz
+
+RAM: 16,0 Gt
+
+64-bittinen käyttöjärjestelmä, x64-suoritin
+
+Windows 10 Pro, versio 22H2
+
+##
 
 Aloitin tarkastamalla, miltä localhost näyttää selaimessa.
 
