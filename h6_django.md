@@ -10,6 +10,66 @@ Windows 10 Pro, versio 22H2
 
 ## Tiivistelmä
 
+Tiivistelmä ohjeista:
+Karvinen, Tero. Django 4 Instant Customer Database Tutorial. 13.2.2022. [https://terokarvinen.com/2022/django-instant-crm-tutorial/](https://terokarvinen.com/2022/django-instant-crm-tutorial/)
+Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokarvinen.com/2022/deploy-django/?fromSearch=django](https://terokarvinen.com/2022/deploy-django/?fromSearch=django)
+
+- Asenna tarvittavat paketit ja työkalut (micro, pwgen) 
+
+- Luo virtuaaliympäristö (virtualenv) ja aktivoi se 
+  > virtualenv --system-site-packages -p python3
+  > env/source env/bin/activate
+
+- Asenna Django ja tarkista sen versio 
+  > django-admin --version
+
+- Luo uusi Django-projekti
+  > django-admin startproject "nimi"
+  > cd "nimi"
+
+- Käynnistä palvelin ja avaa tervetulonäkymä (raketin kuva)
+  > ./manage.py runserver
+
+- Avaa hallintaliittymä osoitteessa http://127.0.0.1:8000/admin/
+  
+- päivitä tietokannat ja luo pääkäyttäjä
+  > ./manage.py makemigrations
+  > ./manage.py migrate
+  > ./manage.py createsuperuser
+
+- Luo uusi sovellus CRM:lle, määritä mallit ja rekisteröi ne hallintaliittymässä
+  > ./manage.py startapp crm
+  
+- Mukauta asiakkaiden nimien näyttöä hallintaliittymässä
+  > crm/models.py
+  > class Customer(models.Model):
+    name = models.CharField(max_length=160)
+
+    def __str__(self):
+        return self.name
+  
+- Käynnistä palvelin ja lisää asiakkaita hallintaliittymän kautta
+  >./manage.py runserver
+
+- Asenna Apache WSGI-moduuli
+  >sudo apt-get -y install libapache2-mod-wsgi-py3
+  
+- Tarkista, että luotu syntaksi on ok ja käynnistä Apache uudelleen
+  > /sbin/apache2ctl configtest
+  > sudo systemctl restart apache2
+
+- Poista DEBUG-tila käytöstä ja määritä ALLOWED_HOSTS
+  > cd -> cd publicwsgi/teroco/ -> micro teroco/settings.py
+  > DEBUG = False
+  > ALLOWED_HOSTS = ["localhost", "hello.terokarvinen.com"]
+
+- Kerää staattiset tiedostot
+
+- Tarkista, että Apache palvelee Django-projektia
+
+- Tarvittaessa tee vianetsintää käyttäen Apache- ja Django-lokkeja
+
+
 
 
 ## Tehtävät
@@ -117,8 +177,19 @@ Vielä tilanne ei korjaantunut, ja tarkistin vielä crm/models.py:n ja annoin mi
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/59734e67-0f0b-4e56-acf6-8abe342d69ba)
 
-Sivu näytti edelleen samalta.
+Sivu näytti edelleen samalta. Korjasin vielä uudestaan ohjeen mukaa, mutta sekään ei korjannut tilannetta.
 
+![image](https://github.com/RonjaVee/smial/assets/148786247/28d04d65-565c-4af2-ab69-ecae5ae175b1)
+
+
+
+### Lähteet
+
+
+
+Karvinen, Tero. Django 4 Instant Customer Database Tutorial. 13.2.2022. [https://terokarvinen.com/2022/django-instant-crm-tutorial/](https://terokarvinen.com/2022/django-instant-crm-tutorial/)
+
+Karvinen, Tero. Deploy Django 4 - Production Install.13.2.2022. [https://terokarvinen.com/2022/deploy-django/?fromSearch=django](https://terokarvinen.com/2022/deploy-django/?fromSearch=django)
 
 
 
