@@ -87,6 +87,7 @@ Windows 10 Pro, versio 22H2
 
 ##
 
+
 Aloitin tarkastamalla, miltä localhost näyttää selaimessa.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/840ca3aa-a701-48e3-b2ef-8ef6c0f6742e)
