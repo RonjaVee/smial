@@ -24,3 +24,5 @@ Sitten siirsin tiedoston kansioon, josta sen voi suorittaa kaikki käyttäjät, 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/d6f4fde0-1090-4a62-af12-9462283e1c7f)
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/8b66081e-4dde-4625-86c6-b09e910f624c)
+
+Toimihan se.
