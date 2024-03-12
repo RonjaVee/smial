@@ -5,7 +5,7 @@
 - 64-bittinen käyttöjärjestelmä, x64-suoritin
 - Windows 10 Pro, versio 22H2
 
-## Komennon luominen Pythonilla
+## Komennon luominen Pythonilla (a ja b)
 
 Loin ensin microlla tiedoston nimeltä hello.py, ja kirjoitin sinne hei maailman Pythonilla seuraavanlaisesti:
 
