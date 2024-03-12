@@ -26,3 +26,9 @@ Sitten siirsin tiedoston kansioon, josta sen voi suorittaa kaikki käyttäjät, 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/8b66081e-4dde-4625-86c6-b09e910f624c)
 
 Toimihan se.
+
+##
+
+Lähteet:
+
+Tehtävänanto: Tero Karvinen, 2024: h7 Maalisuora, [https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h7-maalisuora](https://terokarvinen.com/2024/linux-palvelimet-2024-alkukevat/#h7-maalisuora)
