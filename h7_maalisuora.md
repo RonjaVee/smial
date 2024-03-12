@@ -19,7 +19,7 @@ Sitten kehittelin vielä pienoisohjelmaani siten, että se näyttäisi aikaa.
 
 ![image](https://github.com/RonjaVee/smial/assets/148786247/dff117ba-c2af-4e70-9719-776dbe0aa4a9)
 
-Sitten siirsin tiedoston kansioon, josta sen voi suorittaa kaikki käyttäjät: `mv hello.py /usr/localbin/`
+Sitten siirsin tiedoston kansioon, josta sen voi suorittaa kaikki käyttäjät: `mv hello.py /usr/local/bin/`
 
 Annoin uudestaan suoritusoikeudet komennolla `sudo chmod -x hello.python` ja testasin, voivatko muutkin käyttäjät suorittaa komennon.
 
